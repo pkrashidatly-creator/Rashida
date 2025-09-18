@@ -1,0 +1,97 @@
+
+.icons{
+   
+    color:  #b834ff;
+    border-radius: 50%;
+    border: 3px solid;
+    font-size: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.icons:hover{
+     color: aliceblue;
+}
+
+.main{
+    background-color: rgba(32, 36, 45, 255)
+    
+}
+.body{
+    background-color: rgba(32, 36, 45, 255) 
+}
+p{
+    color: rgb(202, 207, 210);
+}
+.name{
+    color: #b834ff;
+}
+.btn{
+    width: 150px;
+    font-size:16px ;
+    box-shadow: 0 0 10px  #b834ff; 
+    background:transparent;
+}
+.img-fluid{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    border: 1px solid#b834ff;
+    border-radius: 30px;
+    box-shadow: 0 0 10px  #b834ff; 
+}
+.about{
+    border: 1px solid#b834ff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px  #b834ff; 
+}
+.skills{
+    margin-top: 200px;
+    /* border: 1px solid#b834ff;
+    border-radius: 30px;
+    box-shadow: 0 0 10px  #b834ff; */
+}
+.project{
+   margin-top: 50px;
+    margin-left: 100px;
+    
+    /* border: 1px solid#b834ff;
+    border-radius: 30px;
+    box-shadow: 0 0 10px  #b834ff; */
+}
+
+.progress .progress-bar{
+ background-color:#b834ff  ;
+}
+h4{
+    padding: 5px;
+}
+.form-control{
+    border: 3px solid #b834ff;
+    border-radius: 20px;
+     box-shadow: 0 0 10px  #b834ff; 
+     background:transparent;
+    }
+.img{
+    border: 1px solid ;
+    border-radius: 20px;
+}
+.card{
+     border: 3px solid #b834ff;
+     border-radius: 10px;
+     box-shadow: 0 0 13px  #b834ff; 
+    
+      background-color: rgba(32, 36, 45, 255) 
+}
+.myedu{
+border: 3px solid #b834ff;
+     border-radius: 10px;
+     box-shadow: 0 0 13px  #b834ff; 
+     width: 17rem;
+}
+.ft{
+   background-color: #323846;
+}
+section{
+    height: 600px;
+    
+}

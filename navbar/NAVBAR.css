@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+#img{
+    height: 30px;
+    width: 30px;
+    padding-left: 20px;
+}
+.topnav{
+    display: flex;
+    width: 100%;
+    height:60px;
+    flex-wrap:wrap;
+    flex-direction: row;
+}
+.topnav a{
+
+  float: left;
+  text-align: center;
+  padding: 10px 9px;
+  text-decoration: none;
+  font-size: 15px;
+  padding-top: 20px;
+  color: black;
+  justify-content: space-between;
+  /* border-radius: 9px; */
+}
+.rightnav a:hover{
+    background-color: rgb(32, 135, 32);
+    color: #fff;
+    height: 40px;
+}
+.leftnav a{
+    display: flex;
+ float: left;
+  text-align: center;
+  padding: 14px 15px;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  justify-content: space-between;
+  border-radius: 35px;
+  margin: 10px;
+}
+.leftnav a:hover{
+    background-color: #e4e4e4;
+    color: rgb(4, 4, 4);
+    cursor: pointer;
+}
+.search{
+    position: relative;
+    border-radius: 30px;
+    height: 35px;
+    max-width: 210px;
+    outline: none; 
+    /* border: 1 px solid gray;  */
+    top:14px;  
+}
+.icon{
+    position:absolute;
+    cursor: pointer;
+    transform: translateY(-50%);
+   top: 35px;
+   right: 54%;
+}
+#sign{
+    background-color: rgb(32, 135, 32);
+    border-radius: 15px;
+    height: 40px;
+    width: 100px;
+    border: 1px solid rgb(32, 135, 32);
+    color: #fff; 
+    margin-top:-20px;  
+}
+ .secondnav{
+    display: flex;
+    overflow: hidden; 
+    flex-wrap:initial;
+ }
+ .secondnav a{
+    float: left;
+    text-align: center;
+    padding: 12px 10px;
+    text-decoration: none;
+    font-size: 15px;
+    padding-top: 10px;
+    color: rgb(247, 244, 244);
+    background: black;
+    justify-content: space-between; 
+    
+ }
+ /* .secondnav ::-webkit-scrollbar{
+    width: 12;
+    height: 10;
+ }
+ .secondnav ::-webkit-scrollbar-corner{
+    background: #ddd;
+ }
+ .secondnav ::-webkit-scrollbar-track{
+    background: rgba(0,0,0,0.4);
+ } */
+ .secondnav a:hover{
+    background-color: rgb(37, 37, 37);
+    color: #ddd;
+ }
+ 

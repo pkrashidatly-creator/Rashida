@@ -1,0 +1,467 @@
+*{
+    margin: 0;
+    font-weight: 500;
+    font-family:Rubik, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+body{
+    overflow-x: hidden;
+}
+.main-container{
+    height: 350px;
+    background: rgb(255, 109, 56);
+    border-radius: 0px 0px 150px 150px; 
+}
+.main{
+    background-color: rgb(255, 255, 255);
+    height: 20%; 
+}
+.logo{
+ margin-top: -80px;
+ margin-left: 80px;
+ display: flex;
+ width:180px ;
+}
+.items{
+    display: flex;
+    margin-top: -84px; 
+    text-align: center;
+    color: gray;
+}
+.flight{
+
+    margin-left: 18%;
+}
+.text-flight{
+    margin-top:40px;
+    margin-left: -60px;
+}
+.hotal{
+    margin-left: 2%;
+}
+.text-hotal{
+    margin-top:40px;
+    margin-left: -40px;
+}
+.trains{
+    margin-left: 2%;
+}
+.text-Train{
+    margin-top:40px;
+    margin-left: -50px;
+}
+.cabs{
+    margin-left: 2%;
+}
+.text-cabs{
+    margin-top:40px;
+    margin-left: -50px;
+}
+.bus{
+    margin-left: 2%;
+}
+.text-Bus{
+    margin-top:40px;
+    margin-left: -45px;
+}
+.holidays{
+    margin-left: 3%;
+}
+.text-holidays{
+    margin-top:40px;
+    margin-left: -40px;
+}
+.forex{
+    margin-left: 2%;
+}
+.text-forex{
+    margin-top:40px;
+    margin-left: -60px;
+}
+.insurance{
+    margin-left: 2%;
+}
+.text-insurance{
+    margin-top:40px;
+    margin-left: -90px;
+}
+.booking{
+    display: flex;
+    width: 300px;  
+    margin-left: 70%;
+    margin-top: -70px;
+    position: relative;
+    color: rgb(58, 58, 58);
+}
+.btn{
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    height: 50px;
+    width: 190px;
+    border: 2px solid #2785f8;
+    color:#2785f8;   
+    margin-left: 85%; 
+    margin-top: -40px; 
+    position: absolute;
+    font-size: medium;
+    padding-left: 20px;
+    font-weight: 500;
+    font-family:Rubik, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+#headline{
+   margin: 50rem;
+   margin-top: -250px;
+   color: #ffffff;
+   width: 100%; 
+   margin-bottom: 200px;
+   margin-left: 430px;
+   font-size: 23px;
+   text-shadow: rgba(0, 0, 0, 0.25) 0px 1px 1px;
+}
+.content-main{
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 25px;
+    background-color: #ffffff;
+    justify-content: center;
+    width: 1200px;
+    height: 360px;
+    margin-top: -170px;
+    margin-left:100px ;
+    color: rgb(130, 130, 130);
+    font-weight: 500;
+    font-family:Rubik, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    
+}
+.radiobutton{
+    margin-left: 32px;
+    padding: 11px;  
+    display: flex; 
+    gap: 3rem;
+    padding-top: 40px;
+    font-size: 17px;
+}
+.inputitems{
+    padding-top: 30px;
+   
+}
+
+.input{
+    display: flex;
+    border-radius: 10px;
+    width: 240px;
+    height: 80px;
+    margin-left: 10px;
+    border: 1px solid gray;
+    position: relative;
+    margin-left: 40px;
+}
+.inp{
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-size: 17px;
+    border: #fff;
+}
+.legendSpan{
+    position: absolute;
+    top: -10px;
+}
+.input1{
+    display: flex;
+    border-radius: 10px;
+    width: 240px;
+    height: 80px;
+    margin-left: 10px;
+    border: 1px solid gray;
+    position:absolute;
+    margin-left: 260px;   
+}
+.arrow{
+    position: absolute;
+    left: 230px;
+    top: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px grey;
+}
+.input2{
+    display: flex;
+    border-radius: 10px;
+    width: 150px;
+    height: 80px;
+    margin-left: 10px;
+    border: 1px solid gray;
+    position:absolute;
+    margin-left: 520px;   
+}
+.input3{
+    display: flex;
+    border-radius: 10px;
+    width: 150px;
+    height: 80px;
+    margin-left: 600px;
+    border: 1px solid gray;
+    position:absolute;
+    margin-left: 690px;   
+}
+.input4{
+    display: flex;
+    border-radius: 10px;
+    width: 250px;
+    height: 80px;
+    margin-left: 600px;
+    border: 1px solid gray;
+    position:absolute;
+    margin-left: 860px;   
+}
+h4{
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.legendSpanto{
+    position: absolute;
+   top: -10px;
+   background-color: #fff;
+}
+.firstFieldset{
+    border: 0px;    
+}
+.bottom{
+    display: flex;
+    height:80px ;
+    width: 70rem;
+    margin-left: 40px;
+    margin-top: 40px;
+    background: linear-gradient(135deg, rgb(233, 252, 243) 0%, rgba(255, 255, 255, 0) 100%);
+}
+.lrbottom{
+    display: flex;
+}
+.benefits{
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.more{
+    width: 120px;
+    height: 20px;
+    border-radius: 15px;
+    border-style: none;
+    background: linear-gradient(90deg, rgb(135, 52, 243), rgb(59, 65, 255));
+    color: #fff;
+}
+ #m{
+    font-size: 19px;
+    color: black;
+    font-weight: 700;
+} 
+
+.student{
+    display: flex;
+    gap: .3rem;
+}
+.checkbox{
+    padding-top: 1rem;
+    height: 60px;
+    padding-left: 1rem;
+}
+.checkbox input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+.student{
+    width: 220px;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 5px;
+    height: 50px;
+    margin-left: 11rem;
+    margin-top: -3rem;
+
+}
+
+.text-student{
+  padding-top: 8px;
+  font-size:20px;
+  color: black;
+  
+}
+.SeniorCitizen{
+    width: 220px;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 5px;
+    height: 50px;
+    margin-left: 26rem;
+    margin-top: -3.3rem;
+}
+.text-SeniorCitizen{
+    padding-top: 8px;
+  font-size:19px;
+}
+.SeniorCitizen{
+    display: flex;
+    gap: .3rem;
+}
+.ArmedForces{
+    width: 220px;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 5px;
+    height: 50px;
+    margin-left: 41rem;
+    margin-top: -52px;
+
+}
+.text-ArmedForces{
+  padding-top: 8px;
+  font-size:19px;
+}
+h5{
+    color: black; 
+}
+h6{
+    color: gray;
+}
+.ArmedForces{
+    display: flex;
+    gap: .3rem;
+}
+.DoctorsNurses{
+    width: 220px;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 5px;
+    height: 50px;
+    margin-left: 56rem;
+    margin-top: -52px;
+}
+.text-DoctorsNurses{
+    padding-top: 8px;
+    font-size:19px;   
+}
+.DoctorsNurses{
+    display: flex;
+    gap: .3rem;  
+}
+.search-fly{
+    background: rgb(255, 109, 56);
+    border-radius: 30px;
+    left: 35rem;
+    width: 16rem;
+    height: 4rem;
+    top: 30rem;
+    font-size: 20px;
+    color: #fff;
+    border: 0;
+    position: absolute;
+    justify-items: center;
+}
+
+.boxbottom{ 
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 25px;
+    background-color: #ffffff;
+    width: 1200px;
+    height: 460px;
+    margin-top: 140px;
+}
+.head{
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    font-size: 30px;
+    padding-top: 20px;
+    color: black;
+    font-weight: 700;
+}
+.listitem{
+    display: flex;
+    gap: 10px;
+    margin-left: 40px;
+    height: 50px;
+    justify-content: left;
+    padding-top: 20px  
+}
+.listitem li{
+    list-style-type: none;
+    border: 1px solid #c6c6c6;
+    border-radius: 5px;
+    width: 50px;
+    height: 40px;
+    font-size: 15px;
+    display: flex; 
+    align-items: center; 
+    padding-left: 13px;
+  
+}
+#bankoffers{
+    width: 90px;
+}
+.view{
+    color:#2785f8;
+    margin-left: 66rem;
+    margin-top: -40px;  
+    font-size: 20px;
+}
+ .offers{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    margin-left: 40px;
+    margin-top: 30px;
+    gap: 10px;
+    margin-top: 40px;
+ }
+ .sale1{
+    width: 300px;
+    height: 250px;
+    padding-left: 5px;
+    padding-top: 10px;
+    font-size: 12px;
+    border:0;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 10px;}
+ .sale2{
+    width: 300px;
+    height: 250px;
+    padding-left: 5px;
+    padding-top: 10px;
+    font-size: 12px;
+    border:0;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 10px;
+    
+ }
+ .sale3{
+    width: 150px;
+    height: 250px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 12px;
+    border:0;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 10px;  
+ }
+ .viewbtn{
+    border: 1px solid #2785f8;
+    color:#2785f8;
+    background-color: #fff;
+    height: 40px;
+    width: 120px;
+    margin-left: 10px;
+    border-radius: 5px;}
+   p{
+    font-size: 13px;
+   } 
+   h4{
+    font-size: 14px;
+   }
+ .sale4{
+    width: 300px;
+    height: 250px;
+    padding-left:12px;
+    padding-top: 10px;
+    font-size: 12px;
+    border:0;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 10px;   }
